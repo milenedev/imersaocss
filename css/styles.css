@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://mcdn.wallpapersafari.com/medium/35/81/OTMswK.jpg');
+    background-size: auto 100vh;
+    font-family: arial;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: black;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
