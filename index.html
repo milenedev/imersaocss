@@ -5,18 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>batata frita</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Homemade+Apple&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/59ebf06ecf.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portifolio</a></li>
-            <li><a href="#">Contato</a></li>
+          <ul class="container">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portifolio">Portifolio</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
-        <h1 class="site-title">Mizinha</h1>
-        <h2 class="site-subtitle">jr. frontend developer</h2>
+          <div class="titulo">
+            <h1 class="site-title">Call me Mizinha</h1>
+            <h2 class="site-subtitle">JR. Frontend Developer</h2>
+          </div>
     </header>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+      <figure class="avatar">
+        <img src="https://66.media.tumblr.com/1756a6a41601547fadc924d1fe089eef/tumblr_pw00jvZE1S1vgxuh5o1_400.png" alt="teteco">
+      </figure>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugit eligendi voluptatem itaque molestias beatae, provident enim dignissimos earum ad quas amet, sit corrupti dolores minus doloremque in commodi hic.
+      </p>
+      
+      <p>
+        Aut, amet magnam perspiciatis necessitatibus iure laudantium harum, explicabo eos ducimus ullam reprehenderit cum repudiandae. Odio officiis nobis debitis consequuntur, libero, repudiandae non itaque iste sapiente ullam, a voluptate repellendus!
+      </p>
+      
+      <p>
+        Nam dolores aspernatur, iusto labore voluptas ea sint esse ipsam excepturi, nobis animi quae tenetur, suscipit fuga! Ipsa corrupti unde illo, quis accusantium odio? Veniam tempore officia quo dolorum corrupti.
+      </p>
+
+      <p>
+        E esse site foi feito durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS</a> da Alura ;)
+      </p>
+    </section>
+    <section class="portifolio container" id="portifolio">
+      <h2>Portifolio</h2>
+      <div class="grid">
+        <figure>
+        <img class="img-Portifolio" src="./img/1.jpg" alt="This">
+        <figcaption>This</figcaption>
+        </figure>
+       <figure>
+        <img class="img-Portifolio" src="./img/2.png" alt="Is a">
+        <figcaption>Is a</figcaption>
+        </figure>
+        <figure>
+        <img class="img-Portifolio" src="img/3.jpg" alt="Test">
+        <figcaption>Test</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+      <div class="grid icons">
+        <a target="_blank" href="https://www.instagram.com">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a target="_blank" href="https://twitter.com">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" href="mailto:milenegabrielesantos.contato@gmail.com">
+          <i class="fas fa-envelope-square"></i>
+        </a>
+      </div>
+    </section>
 </body>
 </html>
